@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+    <EditText
+        android:id="@+id/Date"
+        android:layout_width="411dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="Please Enter The Date"
+        android:inputType="text"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/MorningTime"
+        android:layout_width="411dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="Please Enter The Morning Time"
+        android:inputType="text"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/AfternoonTime"
+        android:layout_width="411dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="Please Enter The Afternoon Time"
+        android:inputType="text"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/Notes"
+        android:layout_width="411dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="Please Enter Notes"
+        android:inputType="text"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/tvMessage"
+        android:layout_width="411dp"
+        android:layout_height="35dp"
+        android:text="" />
+
+    <Button
+        android:id="@+id/Savebtn"
+        android:backgroundTint="#FF6200EE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save" />
+
+    <Button
+        android:id="@+id/Clearbtn"
+        android:backgroundTint="#FF6200EE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clear" />
+
+    <Button
+        android:id="@+id/Nextbtn"
+        android:backgroundTint="#FF6200EE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next" />
+
+</LinearLayout>
